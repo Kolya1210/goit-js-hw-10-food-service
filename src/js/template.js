@@ -1,5 +1,6 @@
-import itemTemplate from '../handlebar/item';
+import itemTemplate from '../handlebar/item.hbs';
 import menu from '../menu.json';
+
 
 const menuMarkup = itemTemplate(menu)
 
